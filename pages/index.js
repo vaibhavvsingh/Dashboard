@@ -8,12 +8,12 @@ export default function Home() {
   return (
     <div className="relative">
       <TopNav />
-      <div className="flex">
+      <div className="flex overflow-auto">
         <SideNav />
         <SideBar />
         <Content />
       </div>
-      <PreviewTask/>
+      <PreviewTask />
     </div>
-  )
+  );
 }
